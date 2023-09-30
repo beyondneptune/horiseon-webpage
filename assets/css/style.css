@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+header { /*Since there is only one header in the HTML file, I removed the class name "header" to just be a header tag*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -50,7 +50,7 @@ p {
     font-size: 16px;
 }
 
-#hero {
+#hero {     /*Changed .hero to #hero since this is a span tag so I felt that a id selector would be more fitting*/
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,14 +59,9 @@ p {
     background-position: center;
 }
 
-#float-left {
+.float {                /*combined float-right & float-left to one class for less clutter*/
     float: left;
     margin-right: 25px;
-}
-
-#float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 .content {
@@ -86,23 +81,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-details {
+.benefit-details {    /*Each of the topics in benefits had the exact same code, with different class names so I combined them to one for effeciency*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-details h3 {
+.benefit-details h3 {   /*Same as previous comment, since each topic had its own class, they all their own h3 code which cluttering the CSS file*/
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-details img {
+.benefit-details img {  /*Same as both previous comments, combined multiple classes to one as well as combining the img tags in each*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.articles {
+.articles { 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -120,7 +115,7 @@ p {
     font-size: 36px;
 }
 
-footer {
+footer { /*Same as header, there is only one footer tag in HTML so I changed the previous class name to be just a footer tag*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
