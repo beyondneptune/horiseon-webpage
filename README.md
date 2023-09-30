@@ -1,10 +1,33 @@
-# horiseon-webpage
-This is assignment #1 for UM coding bootcamp.
+# Horiseon Landing Page
 
-This assingment is for cleaning up the HTML file to practice optimizing code to be easy to read and consice. What I added in this webpage was changing some of the tags to be semantic tags to be more specific because there were several div tags with class names.
+## Description
 
-I changed specific tags to match its location to where it is on the page/what it is. I kept some of the class names and id names so that it would not interfer too much with the CSS and so it was grouped properly, without causing confusion.
+This landing/home page is a homepage for a fictional company called "Horiseon". This was given as an assignment to test our skills in optimizing code to be a much more efficient developer. A key point in this assignment besides being concise is to make it accessible for everyone, including people with disabilites. This webpage follows the following acceptance criteria:
 
-Another exercise for this assignment was to implement code that would be beneficial to everyone viewing the webpage including individuals with disabilites. I added alt tags to img lines so people with disabilites who are not able to view the image as intended can understand what the image is.
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the icon and image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
+
+## Images
+
+![Screenshots of webpage for users to see without visiting webpage, if not desired. There are two screenshots to include the top of the webpage beginning with the header, to the bottom of the webpage ending with the footer. This is the first screenshot.](./assets/images/SC-1.png)
+
+![This is the second screenshot.](./assets/images/SC-2.png)
+
+## Usage
 
 This page was built using Github Pages, if you like to visit the webpage here is the link to visit [here](https://beyondneptune.github.io/horiseon-webpage/).
+
+## License
+
+Please refer to the LICENSE in the repo.
