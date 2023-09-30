@@ -26,7 +26,7 @@ THEN I find a concise, descriptive title
 
 ## Usage
 
-This page was built using Github Pages, if you like to visit the webpage, [here is the link to visit](https://beyondneptune.github.io/horiseon-webpage/).
+This page was built using Github Pages. If you would like to visit the webpage, [here is the link to visit](https://beyondneptune.github.io/horiseon-webpage/).
 
 ## License
 
